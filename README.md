@@ -14,27 +14,12 @@ We'll explore the data using geopandas, postgis, statsmodels, and sklearn. We'll
 ## Data Sources
 
 Streetlights: 
- - https://opendata.arcgis.com/datasets/6cb6520725b0489d9a209a337818fad1_90.geojson
- 
-Crime: 
- - 2018: http://opendata.dc.gov/datasets/crime-incidents-in-2018
-         https://opendata.arcgis.com/datasets/38ba41dd74354563bce28a359b59324e_0.geojson
- - 2017: http://opendata.dc.gov/datasets/crime-incidents-in-2017
-         https://opendata.arcgis.com/datasets/6af5cb8dc38e4bcbac8168b27ee104aa_38.geojson
- - 2016: http://opendata.dc.gov/datasets/crime-incidents-in-2016
-         https://opendata.arcgis.com/datasets/bda20763840448b58f8383bae800a843_26.geojson
- - 2015: http://opendata.dc.gov/datasets/crime-incidents-in-2015
-         https://opendata.arcgis.com/datasets/35034fcb3b36499c84c94c069ab1a966_27.geojson
- - 2014: http://opendata.dc.gov/datasets/crime-incidents-in-2014
-         https://opendata.arcgis.com/datasets/6eaf3e9713de44d3aa103622d51053b5_9.geojson
- - 2013: http://opendata.dc.gov/datasets/crime-incidents-in-2013
-         https://opendata.arcgis.com/datasets/5fa2e43557f7484d89aac9e1e76158c9_10.geojson
- - 2012: http://opendata.dc.gov/datasets/crime-incidents-in-2012
-         https://opendata.arcgis.com/datasets/010ac88c55b1409bb67c9270c8fc18b5_11.geojson
- - 2011: http://opendata.dc.gov/datasets/crime-incidents-in-2011
-         https://opendata.arcgis.com/datasets/9d5485ffae914c5f97047a7dd86e115b_35.geojson
- - 2010: http://opendata.dc.gov/datasets/crime-incidents-in-2010
-         https://opendata.arcgis.com/datasets/fdacfbdda7654e06a161352247d3a2f0_34.geojson
+ - http://opendata.dc.gov/datasets/street-lights
+   https://opendata.arcgis.com/datasets/6cb6520725b0489d9a209a337818fad1_90.geojson
+
+ Cityworks Work Orders: 
+ - http://opendata.dc.gov/datasets/cityworks-workorders
+   https://opendata.arcgis.com/datasets/a1dd480eb86445239c8129056ab05ade_0.geojson
  
 Cityworks Service Requests: 
  - 2018 http://opendata.dc.gov/datasets/city-service-requests-in-2018 
@@ -56,6 +41,23 @@ Cityworks Service Requests:
  - 2010 http://opendata.dc.gov/datasets/city-service-requests-in-2010 
         https://opendata.arcgis.com/datasets/ba150a4170bc484b8cc204be308fa70c_1.geojson
  
- Cityworks Work Orders: http://opendata.dc.gov/datasets/cityworks-workorders
- - https://opendata.arcgis.com/datasets/a1dd480eb86445239c8129056ab05ade_0.geojson
+Crime: 
+ - 2018: http://opendata.dc.gov/datasets/crime-incidents-in-2018
+         https://opendata.arcgis.com/datasets/38ba41dd74354563bce28a359b59324e_0.geojson
+ - 2017: http://opendata.dc.gov/datasets/crime-incidents-in-2017
+         https://opendata.arcgis.com/datasets/6af5cb8dc38e4bcbac8168b27ee104aa_38.geojson
+ - 2016: http://opendata.dc.gov/datasets/crime-incidents-in-2016
+         https://opendata.arcgis.com/datasets/bda20763840448b58f8383bae800a843_26.geojson
+ - 2015: http://opendata.dc.gov/datasets/crime-incidents-in-2015
+         https://opendata.arcgis.com/datasets/35034fcb3b36499c84c94c069ab1a966_27.geojson
+ - 2014: http://opendata.dc.gov/datasets/crime-incidents-in-2014
+         https://opendata.arcgis.com/datasets/6eaf3e9713de44d3aa103622d51053b5_9.geojson
+ - 2013: http://opendata.dc.gov/datasets/crime-incidents-in-2013
+         https://opendata.arcgis.com/datasets/5fa2e43557f7484d89aac9e1e76158c9_10.geojson
+ - 2012: http://opendata.dc.gov/datasets/crime-incidents-in-2012
+         https://opendata.arcgis.com/datasets/010ac88c55b1409bb67c9270c8fc18b5_11.geojson
+ - 2011: http://opendata.dc.gov/datasets/crime-incidents-in-2011
+         https://opendata.arcgis.com/datasets/9d5485ffae914c5f97047a7dd86e115b_35.geojson
+ - 2010: http://opendata.dc.gov/datasets/crime-incidents-in-2010
+         https://opendata.arcgis.com/datasets/fdacfbdda7654e06a161352247d3a2f0_34.geojson
  
